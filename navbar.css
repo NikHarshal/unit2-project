@@ -1,0 +1,55 @@
+#navbar{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+#pickup{
+    background-color: rgb(235, 235, 235);
+}
+#pickup>.gps>h3>img{
+    height: 25px;
+    
+
+}
+.gps{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+#head{
+    margin: 17px auto 8px;
+    width: 258px;
+    height: 25px;
+    left: auto;
+    position: relative;
+    right: auto;
+
+    margin-top: 27px;
+    width: 340px;
+    height: 34px;
+}
+.lefthead{
+    margin-left: -150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lefthead>a{
+    text-decoration: none;
+}
+.links{
+    margin-top: 15px;
+    font-size: 14px;
+   
+  
+}
+.links>a{
+    text-decoration: none;
+    color: grey;
+    
+}
+.links>a:hover{
+    text-decoration: underline 2px solid rgb(47, 74, 226);
+
+
+}
